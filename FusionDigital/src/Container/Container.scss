@@ -1,0 +1,24 @@
+@use '../styles/variables' as v;
+
+h2 {
+  color: v.$text-primary;
+  font-family: v.$headings-font;
+  font-weight: v.$font-weight-600;
+}
+
+p {
+  color: v.$silver;
+  font-family: v.$main-font;
+  font-weight: v.$font-weight-400;
+}
+
+.container-main {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  margin-top: 20%;
+  width: 70%;
+  gap: 10%;
+  margin-left: 13.5%;
+  line-height: 1.2em;
+}

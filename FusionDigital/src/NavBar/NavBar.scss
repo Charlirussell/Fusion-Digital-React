@@ -1,6 +1,5 @@
 @use '../styles/variables' as v;
 
-
 .flexbox {
     display: flex;
     justify-content: center;
@@ -27,7 +26,6 @@
     align-items: flex-start;
 }
 
-
 #navbar {
     top: 0;
     left: 0;
@@ -39,12 +37,14 @@
     transition: width 0.35s cubic-bezier(0.175, 0.685, 0.32, 1);
     overflow-y: auto;
     overflow-x: hidden;
-    font-family: 'montserrat-alternates', sans-serif;
+
+    ul {
+        margin-top: 3em;
+    }
 
     img {
-        height: 8em;
-        padding-bottom: 1em;
-        padding-top: 1em;
+        height: 5em;
+        margin-top: 3em;
     }
 }
 

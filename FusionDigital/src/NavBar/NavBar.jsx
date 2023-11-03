@@ -4,12 +4,10 @@ const NavBar = () => {
 
   return (
     <nav id="navbar">
-      <ul className="navbar-items flexbox-col">
-        <li className="navbar-logo flexbox-left">
-          <a className="navbar-item-inner flexbox">
-            <img src="./src/assets/Fusion (1).png" alt="Logo" />
-          </a>
-        </li>
+      <a className="navbar-item-inner flexbox">
+        <img src="./src/assets/Fusion (1).png" alt="Logo" />
+      </a>
+      <ul>
         <li className="navbar-item flexbox-left">
           <a className="navbar-item-inner flexbox-left">
             <div className="navbar-item-inner-icon-wrapper flexbox">
